@@ -5,7 +5,7 @@ const reader = readline.createInterface({
     output: process.stdout
 })
 
-function calculator(cb){
+function calculator(){
     console.clear()
     reader.question('Enter 1st number: ', function(firstnum){
         reader.question('Enter 2nd number: ', function(secondnum){
