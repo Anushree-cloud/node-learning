@@ -1,8 +1,8 @@
-todos = [
+let todos = [
     "Learn node js",
     "Build awesome apps"
 ]
 
-for(let i = 0; i < todos.length; i++){
-    console.log(`${i+1}. ${todos[i]}`)
-}
+todos.forEach((element, index) => {
+    console.log(`${index+1}. ${element}`);
+})
